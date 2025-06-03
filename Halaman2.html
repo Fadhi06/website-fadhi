@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Transaksi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #0077ff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+
+        .form-container {
+            background-color: white;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            background-color: #0077ff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    FORMULIR TRANSAKSI
+</header>
+
+<div class="form-container">
+    <h2>Isi Data Transaksi</h2>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required>
+        </select>
+
+        <label for="jumlah">Jumlah:</label>
+        <input type="text" id="jumlah" name="jumlah" value="1" required>
+
+        <button type="submit">Kirim</button>
+    </form>
+</div>
+
+<footer>
+    &copy; fadhistore
+</footer>
+
+</body>
+</html>

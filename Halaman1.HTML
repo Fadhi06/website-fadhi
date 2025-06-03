@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadstore.ID</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #e6f0fa; /* Biru muda latar */
+            color: #333;
+        }
+
+        .header {
+            background-color: #003366; /* Biru tua */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .navbar {
+            background-color: #a3c9f1; /* Biru terang */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #003366;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex: 1 1 20%;
+            background-color: #003366;
+            padding: 15px;
+            text-align: center;
+            color: #ffffff;
+            border-radius: 8px;
+        }
+
+        .main-content {
+            flex: 1 1 60%;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .main-content marquee {
+            color: #003366;
+        }
+
+        .main-content h2 {
+            color: #003366;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product-card {
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0 5px;
+            color: #003366;
+        }
+
+        .product-card p {
+            margin: 5px 0;
+        }
+
+        .product-card a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        .product-card a:hover {
+            color: #001a33;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar, .main-content {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">SELAMAT DATANG DI fadstore.ID</div>
+
+    <div class="navbar">
+        <a href="Halaman1.html">Home</a>
+        <a href="Halaman2.html">Transaksi</a>
+        <a href="Halaman3.html">Tentang Produk</a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <p>
+                Pulpen, Buku Tulis dan Tipe x fadstore<br>
+                Pulpen dengan tinta jell yang sangat nyaman saat digunakan, Buku Tulis 50 halaman dengan kertas yang tebal, dan tip-x yang cepat mengering.<br>
+                Nyaman digunakan, tahan sampai lulus!
+            </p>
+        </div>
+
+        <div class="main-content">
+            <marquee>Welcome to fadstore.ID!</marquee>
+            <h2>Daftar Produk</h2>
+
+            <div class="product">
+                <!-- Produk 1 -->
+                <div class="product-card">
+                    <img src="pulpen 1.jpg" alt="PULPEN JEYKO">
+                    <h3>PULPEN JEYKO</h3>
+                    <p>Rp3.000</p>
+                    <a href="Halaman2.html">Beli</a>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="product-card">
+                    <img src="pulpen 2.jpg" alt="PULPEN PIC-COLORS">
+                    <h3>PULPEN PIC-COLORS</h3>
+                    <p>Rp2.500</p>
+                    <a href="Halaman2.html">Beli</a>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="product-card">
+                    <img src="Buku Tulis Campus" alt="Buku tulis Campus">
+                    <h3>Buku Tulis Campus</h3>
+                    <p>Rp3.000</p>
+                    <a href="Halaman2.html">Beli</a>
+                </div>
+                
+
+                <!-- Produk 4 -->
+                <div class="product-card">
+                    <img src="tipe x.jpg" alt="TIP X KENKO">
+                    <h3>TIP X KENKO</h3>
+                    <p>Rp5.000</p>
+                    <a href="Halaman2.html">Beli</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">Kontak Kami: +628383888644</div>
+    </div>
+
+    <div class="footer">&copy; 2025 fadstore.ID - All Rights Reserved</div>
+
+</body>
+</html>

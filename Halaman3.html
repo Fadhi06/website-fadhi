@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tentang Kami</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #e6f0ff;
+            color: #002244;
+        }
+
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            background-color: #00509e;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #003f7f;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 50, 0.1);
+            margin-top: 30px;
+        }
+
+        .text-section {
+            flex: 1 1 60%;
+            padding-right: 20px;
+        }
+
+        .text-section h2 {
+            color: #003366;
+            border-bottom: 2px solid #00509e;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .text-section p {
+            font-size: 17px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .image-section {
+            flex: 1 1 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-section img {
+            width: 90%;
+            max-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                padding: 0;
+                flex: 1 1 100%;
+            }
+
+            .image-section {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        TENTANG KAMI
+    </div>
+
+    <div class="navbar">
+        <a href="Halaman1.html">Home</a>
+        <a href="Halaman2.html">Transaksi</a>
+        <a href="Halaman3.html">Tentang Kami</a>
+    </div>
+
+    <div class="content">
+        <div class="text-section">
+            <h2>Profil Pengembang</h2>
+            <p><strong>Nama:</strong> Fadhi Ahmad Kurnia</p>
+            <p><strong>Kelas:</strong> IS-1</p>
+            <p><strong>Alamat:</strong> Padalarang, Bandung Barat</p>
+            <p><strong>Kontak:</strong> 0838-3880-8644</p>
+            <p>Saya adalah mahasiswa yang memiliki minat besar di bidang teknologi dan pengembangan web. Website ini merupakan salah satu bentuk proyek untuk menampilkan produk digital berupa pulpen, buku tulis, tipe x yang berkualitas untuk berbagai kalangan.</p>
+
+            <h2>Profil Produk</h2>
+            <p>Kami menjual berbagai macam <strong>produk berkualitas</strong> dari Buku tulis, pulpen, tipe x untuk berbagai kalangan, seperti anak sekolah, mahasiswa bahkan bagi para pekerja.</em></p>
+        </div>
+        <div class="image-section">
+            <img src="foto fadhi.jpg" alt="Foto Fadhi Ahmad Kurnia">
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Fadhi Ahmad Kurnia | IS-1 | Buku Berkualitas untuk Semua
+    </div>
+
+</body>
+</html>
